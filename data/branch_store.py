@@ -1,30 +1,30 @@
 branches = [
     {
-        "city": "Tasikmalaya",
-        "store_type": "Head Office",
+        "store_location": "Tasikmalaya",
+        "type_store": "Head Office",
     },
     {
-        "city": "Jakarta",
-        "store_type": "Branch",
+        "store_location": "Jakarta",
+        "type_store": "Branch",
     },
     {
-        "city": "Bandung",
-        "store_type": "Branch",
+        "store_location": "Bandung",
+        "type_store": "Branch",
     },
     {
-        "city": "Surabaya",
-        "store_type": "Branch",
+        "store_location": "Surabaya",
+        "type_store": "Branch",
     },
     {
-        "city": "Medan",
-        "store_type": "Branch",
+        "store_location": "Medan",
+        "type_store": "Branch",
     },
     {
-        "city": "Jayapura",
-        "store_type": "Branch",
+        "store_location": "Jayapura",
+        "type_store": "Branch",
     },
     {
-        "city": "Denpasar",
-        "store_type": "Branch",
+        "store_location": "Denpasar",
+        "type_store": "Branch",
     }
 ]
