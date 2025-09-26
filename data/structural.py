@@ -3,7 +3,6 @@ structural_items = [
     {
         "product": "Tiga Roda 40 kg",
         "brand": "Tiga Roda",
-        "weight_kg": 40,
         "unit": "Sack",
         "product_type": "Cement",
         "price_per_unit": 64000,
@@ -12,7 +11,6 @@ structural_items = [
     {
         "product": "Tiga Roda 50 kg",
         "brand": "Tiga Roda",
-        "weight_kg": 50,
         "unit": "Sack",
         "product_type": "Cement",
         "price_per_unit": 76000,
@@ -21,7 +19,6 @@ structural_items = [
     {
         "product": "Holcim 40 kg",
         "brand": "Holcim",
-        "weight_kg": 40,
         "unit": "Sack",
         "product_type": "Cement",
         "price_per_unit": 56000,
@@ -30,7 +27,6 @@ structural_items = [
     {
         "product": "Holcim 50 kg",
         "brand": "Holcim",
-        "weight_kg": 50,
         "unit": "Sack",
         "product_type": "Cement",
         "price_per_unit": 68000,
@@ -39,7 +35,6 @@ structural_items = [
     {
         "product": "Gresik 40 kg",
         "brand": "Gresik",
-        "weight_kg": 40,
         "unit": "Sack",
         "product_type": "Cement",
         "price_per_unit": 57000,
@@ -48,7 +43,6 @@ structural_items = [
     {
         "product": "Gresik 50 kg",
         "brand": "Gresik",
-        "weight_kg": 50,
         "unit": "Sack",
         "product_type": "Cement",
         "price_per_unit": 70000,
