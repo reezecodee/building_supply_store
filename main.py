@@ -2,11 +2,10 @@ import pandas as pd
 import numpy as np
 import random
 import os 
-from datetime import datetime, timedelta
 from data.cashier_and_customer import random_cashier_name, random_customer_name
+from generate_datetime import generate_transaction_time
 
 print("Memulai proses pembuatan dataset riwayat transaksi...")
-
 
 file_names = [
     "construction_tool_materials.csv",
@@ -52,11 +51,6 @@ else:
     # --- 3. Proses Pembuatan Data Transaksi ---
     print("Membuat data transaksi...")
 
-    def random_date(start, end):
-        return start + timedelta(seconds=random.randint(0, int((end - start).total_seconds())))
-
-    start_date = datetime(2020, 1, 1)
-    end_date = datetime(2025, 12, 31)
     num_transactions = 30000
     transaction_history = []
 
@@ -69,15 +63,15 @@ else:
         total_price = unit_purchase * price_per_unit
         transaction = {
             'product_name': product_sample['product_name'],
+            'brand': product_sample.get('brand', np.nan),
             'product_type': product_sample.get('product_type', np.nan),
             'unit': product_sample.get('unit', np.nan),
             'unit_purchase': unit_purchase,
             'price_per_unit': price_per_unit,
             'total_price': total_price,
             'currency': product_sample.get('currency', 'IDR'),
-            'date': random_date(start_date, end_date),
+            'date': generate_transaction_time(),
             'delivery': random.choice(['Pickup', 'Delivery']),
-            'brand': product_sample.get('brand', np.nan),
             'store_location': store_sample['store_location'],
             'type_store': store_sample['type_store'],
             'customer_name': random_customer_name(random.choice(["random", "male", "female"])),
@@ -87,14 +81,14 @@ else:
 
     transactions_df = pd.DataFrame(transaction_history)
     final_columns = [
-        'product_name', 'product_type', 'unit', 'unit_purchase',
-        'price_per_unit', 'total_price', 'currency', 'date', 'delivery', 'brand',
+        'product_name', 'brand', 'product_type', 'unit', 'unit_purchase',
+        'price_per_unit', 'total_price', 'currency', 'date', 'delivery',
         'store_location', 'type_store', 'customer_name', 'cashier_name'
     ]
     transactions_df = transactions_df[final_columns]
 
     # --- 4. Menyimpan Hasil ---
-    output_filename = "building_supply_store_2020-2025.csv"
+    output_filename = "building_supply_store_sales_2020-2024.csv"
     path = os.path.join('csv', output_filename)
     transactions_df.to_csv(path, index=False)
     print(f"\nBERHASIL! Sebanyak {len(transactions_df)} data transaksi telah dibuat.")

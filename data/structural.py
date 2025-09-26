@@ -58,93 +58,93 @@ structural_items = [
     # nature materials
     {
         "product": "Masonry Sand",
-        "brand": None,              
+        "brand": "Unbranded",          
         "unit": "Cubic Meter",      
         "product_type": "Sand",
         "price_per_unit": 250000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Concrete Sand",
-        "brand": None,
+        "brand": "Unbranded",
         "unit": "Cubic Meter",
         "product_type": "Sand",
         "price_per_unit": 300000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Crushed Stone / Gravel",
-        "brand": None,
+        "brand": "Unbranded",
         "unit": "Cubic Meter",
         "product_type": "Stone",
         "price_per_unit": 350000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "River Stone",
-        "brand": None,
+        "brand": "Unbranded",
         "unit": "Cubic Meter",
         "product_type": "Stone",
         "price_per_unit": 330000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
 
     # bricks
     {
         "product": "Red Brick",
-        "brand": None,
-        "unit": "Piece",               
+        "brand": "Laksana",
+        "unit": "Piece",
         "product_type": "Brick",
-        "price_per_unit": 800,         
-        "currency": "IDR",
+        "price_per_unit": 800,
+        "currency": "IDR"
     },
     {
         "product": "Concrete Block",
-        "brand": None,
+        "brand": "Bricon",
         "unit": "Piece",
         "product_type": "Brick",
         "price_per_unit": 5000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Lightweight Brick (AAC Block)",
-        "brand": None,
+        "brand": "Hebel",
         "unit": "Piece",
         "product_type": "Brick",
         "price_per_unit": 10000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
 
     # steels
     {
         "product": "Rebar 6mm",
-        "brand": None,
-        "unit": "Meter",               
+        "brand": "Krakatau Steel",
+        "unit": "Meter",
         "product_type": "Steel",
-        "price_per_unit": 15000,       
-        "currency": "IDR",
+        "price_per_unit": 15000,
+        "currency": "IDR"
     },
     {
         "product": "Rebar 8mm",
-        "brand": None,
+        "brand": "Master Steel",
         "unit": "Meter",
         "product_type": "Steel",
         "price_per_unit": 20000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Rebar 10mm",
-        "brand": None,
+        "brand": "Gunung Steel",
         "unit": "Meter",
         "product_type": "Steel",
         "price_per_unit": 25000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
 
     # woods
     {
         "product": "Timber Beam (Kaso)",
-        "brand": None,
+        "brand": "Unbranded",
         "unit": "Piece",               
         "product_type": "Wood",
         "price_per_unit": 25000,
@@ -152,7 +152,7 @@ structural_items = [
     },
     {
         "product": "Roof Batten (Reng)",
-        "brand": None,
+        "brand": "Unbranded",
         "unit": "Piece",
         "product_type": "Wood",
         "price_per_unit": 15000,
@@ -160,7 +160,7 @@ structural_items = [
     },
     {
         "product": "Wooden Beam",
-        "brand": None,
+        "brand": "Unbranded",
         "unit": "Piece",
         "product_type": "Wood",
         "price_per_unit": 40000,
@@ -168,7 +168,7 @@ structural_items = [
     },
     {
         "product": "Formwork Board (Shuttering)",
-        "brand": None,
+        "brand": "Unbranded",
         "unit": "Piece",
         "product_type": "Wood",
         "price_per_unit": 30000,

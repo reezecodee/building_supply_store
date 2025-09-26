@@ -2,86 +2,86 @@ roof_ceiling_items = [
     # Roof Covering
     {
         "product": "Clay Roof Tile",
-        "brand": None,
+        "brand": "Kanmuri",
         "unit": "Piece",
         "product_type": "Roof Covering",
         "price_per_unit": 2000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Concrete Roof Tile",
-        "brand": None,
+        "brand": "Monier",
         "unit": "Piece",
         "product_type": "Roof Covering",
         "price_per_unit": 3500,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Metal Roof Tile",
-        "brand": None,
+        "brand": "Multi Roof",
         "unit": "Piece",
         "product_type": "Roof Covering",
         "price_per_unit": 5000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Spandek / Galvalume Sheet",
-        "brand": None,
+        "brand": "BlueScope",
         "unit": "Meter",
         "product_type": "Roof Covering",
         "price_per_unit": 90000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Asbestos Sheet",
-        "brand": None,
+        "brand": "Djabesmen",
         "unit": "Meter",
         "product_type": "Roof Covering",
         "price_per_unit": 60000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
 
     # Roof Frame
     {
         "product": "Timber Roof Frame",
-        "brand": None,
+        "brand": "Unbranded",
         "unit": "Meter",
         "product_type": "Roof Frame",
         "price_per_unit": 30000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Lightweight Steel Roof Frame",
-        "brand": None,
+        "brand": "Taso",
         "unit": "Meter",
         "product_type": "Roof Frame",
         "price_per_unit": 45000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
 
     # Ceiling
     {
         "product": "Gypsum Board",
-        "brand": None,
+        "brand": "Jayaboard",
         "unit": "Sheet",
         "product_type": "Ceiling",
         "price_per_unit": 60000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "GRC Board",
-        "brand": None,
+        "brand": "KalsiBoard",
         "unit": "Sheet",
         "product_type": "Ceiling",
         "price_per_unit": 70000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Ceiling Cornice / Profile List",
-        "brand": None,
+        "brand": "Aplus",
         "unit": "Meter",
         "product_type": "Ceiling",
         "price_per_unit": 15000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
 ]

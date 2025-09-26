@@ -2,92 +2,92 @@ constructions_tool_items = [
     # Basic Tools
     {
         "product": "Hammer",
-        "brand": None,
+        "brand": "Lippro",
         "unit": "Piece",
         "product_type": "Tool",
         "price_per_unit": 50000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Hand Saw",
-        "brand": None,
+        "brand": "Tekiro",
         "unit": "Piece",
         "product_type": "Tool",
         "price_per_unit": 60000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Measuring Tape",
-        "brand": None,
+        "brand": "Stanley",
         "unit": "Piece",
         "product_type": "Tool",
         "price_per_unit": 30000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Screwdriver Set",
-        "brand": None,
+        "brand": "Tekiro",
         "unit": "Set",
         "product_type": "Tool",
         "price_per_unit": 40000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Pliers",
-        "brand": None,
+        "brand": "Tekiro",
         "unit": "Piece",
         "product_type": "Tool",
         "price_per_unit": 35000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
 
     # Construction Tools
     {
         "product": "Hoe",
-        "brand": None,
+        "brand": "Camel",
         "unit": "Piece",
         "product_type": "Tool",
         "price_per_unit": 80000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Shovel",
-        "brand": None,
+        "brand": "Camel",
         "unit": "Piece",
         "product_type": "Tool",
         "price_per_unit": 75000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Wheelbarrow",
-        "brand": None,
+        "brand": "Artco",
         "unit": "Piece",
         "product_type": "Tool",
         "price_per_unit": 450000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Trowel",
-        "brand": None,
+        "brand": "Lippro",
         "unit": "Piece",
         "product_type": "Tool",
         "price_per_unit": 25000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Plastering Float",
-        "brand": None,
+        "brand": "Lippro",
         "unit": "Piece",
         "product_type": "Tool",
         "price_per_unit": 30000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Spirit Level",
-        "brand": None,
+        "brand": "Krisbow",
         "unit": "Piece",
         "product_type": "Tool",
         "price_per_unit": 65000,
-        "currency": "IDR",
-    },
+        "currency": "IDR"
+    }
 ]

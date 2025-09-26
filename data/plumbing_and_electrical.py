@@ -18,44 +18,44 @@ plumbing_and_electrical_items = [
     },
     {
         "product": "Water Tank",
-        "brand": None,
+        "brand": "Penguin",
         "unit": "Piece",
         "product_type": "Plumbing",
         "price_per_unit": 1500000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
 
     # Electrical
     {
         "product": "Electrical Cable",
-        "brand": None,
+        "brand": "Supreme",
         "unit": "Meter",
         "product_type": "Electrical",
         "price_per_unit": 5000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Conduit Pipe",
-        "brand": None,
+        "brand": "Clipsal",
         "unit": "Meter",
         "product_type": "Electrical",
         "price_per_unit": 7000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Lamp Bulb",
-        "brand": None,
+        "brand": "Philips",
         "unit": "Piece",
         "product_type": "Electrical",
         "price_per_unit": 15000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
     {
         "product": "Power Outlet",
-        "brand": None,
+        "brand": "Panasonic",
         "unit": "Piece",
         "product_type": "Electrical",
         "price_per_unit": 20000,
-        "currency": "IDR",
+        "currency": "IDR"
     },
 ]
