@@ -1,0 +1,95 @@
+finishing_items = [
+    # Tiles
+    {
+        "product": "Ceramic Tile",
+        "brand": None,
+        "unit": "Box",
+        "product_type": "Tile",
+        "price_per_unit": 75000,
+        "currency": "IDR",
+    },
+    {
+        "product": "Granite Tile",
+        "brand": None,
+        "unit": "Box",
+        "product_type": "Tile",
+        "price_per_unit": 150000,
+        "currency": "IDR",
+    },
+
+    # Mortar
+    {
+        "product": "Plaster Mortar",
+        "brand": None,
+        "unit": "Sack",
+        "product_type": "Mortar",
+        "price_per_unit": 50000,
+        "currency": "IDR",
+    },
+    {
+        "product": "Skim Coat (Wall Putty)",
+        "brand": None,
+        "unit": "Sack",
+        "product_type": "Mortar",
+        "price_per_unit": 55000,
+        "currency": "IDR",
+    },
+    {
+        "product": "Tile Adhesive Mortar",
+        "brand": None,
+        "unit": "Sack",
+        "product_type": "Mortar",
+        "price_per_unit": 60000,
+        "currency": "IDR",
+    },
+    {
+        "product": "Tile Grout",
+        "brand": None,
+        "unit": "Sack",
+        "product_type": "Mortar",
+        "price_per_unit": 45000,
+        "currency": "IDR",
+    },
+
+    # Paint & Accessories
+    {
+        "product": "Wall Paint",
+        "brand": None,
+        "unit": "Can",
+        "product_type": "Paint",
+        "price_per_unit": 120000,
+        "currency": "IDR",
+    },
+    {
+        "product": "Paint Brush",
+        "brand": None,
+        "unit": "Piece",
+        "product_type": "Paint Accessory",
+        "price_per_unit": 15000,
+        "currency": "IDR",
+    },
+    {
+        "product": "Paint Roller",
+        "brand": None,
+        "unit": "Piece",
+        "product_type": "Paint Accessory",
+        "price_per_unit": 25000,
+        "currency": "IDR",
+    },
+    {
+        "product": "Sandpaper",
+        "brand": None,
+        "unit": "Piece",
+        "product_type": "Paint Accessory",
+        "price_per_unit": 5000,
+        "currency": "IDR",
+    },
+    {
+        "product": "Wall Putty (Filler)",
+        "brand": None,
+        "unit": "Kg",
+        "product_type": "Paint Accessory",
+        "price_per_unit": 20000,
+        "currency": "IDR",
+    },
+]
